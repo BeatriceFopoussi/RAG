@@ -105,7 +105,7 @@ if query:
         top_n_paragraphs = find_similar_segments(doc_list, query)
 
         # Demander la réponse à OpenAI
-        api_key = "sk-proj-q24aiX6efr5M2SC5ySeVT3BlbkFJdlSFxh4bMKc6G2lL36t4"
+        api_key = ""
         response = get_openai_response(api_key, top_n_paragraphs, query)
 
         # Afficher la réponse générée
