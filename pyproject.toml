@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "llms"
+version = "0.1.0"
+description = ""
+authors = ["Béatrice FOPOUSSI KAMGA <beatrice.fopoussikamga@orange.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pdfplumber = "^0.11.5"
+openai = "0.28"
+python-dotenv = "^1.0.1"
+langchain = "^0.3.18"
+langchain-huggingface = "^0.1.2"
+sentence-transformers = "^3.4.1"
+langchain-community = "^0.3.17"
+pypdf2 = "^3.0.1"
+pandas = "^2.2.3"
+faiss-cpu = "^1.10.0"
+pypdf = "^5.3.0"
+ragatouille = "^0.0.9"
+plotly = "^6.0.0"
+nbformat = "^5.0.0"
+ipython = "^8.32.0"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+streamlit = "^1.42.0"
+
+
+[[tool.poetry.source]]
+name = "default"
+url = "https://repos.tech.orange/artifactory/api/pypi/pythonproxy/simple"
+priority = "primary"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
