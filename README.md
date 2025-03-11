@@ -21,6 +21,8 @@ This project aims to develop an innovative conversational agent based on a Retri
 
 #### Develop a conversational user interface that facilitates interaction with the agent.
 
-![Image Description](images/image1.png)
+
 ![Image Description](images/image2.png)
+
+![Image Description](images/image1.png)
 ![Image Description](images/image3.png)
